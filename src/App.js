@@ -1,6 +1,7 @@
 // import { Route, Routes } from "react-router-dom";import { Navbar } from './components/Navbar';
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import Container from "./components/Container";
 import About from "./components/About";
 import Cases from "./components/Cases";
 import Blog from "./components/Blog";
@@ -11,8 +12,10 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Navbar />
-      <Home />
+      <Container>
+        <Navbar />
+        <Home />
+      </Container>
       <About />
       <Cases />
       <Blog />

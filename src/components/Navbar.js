@@ -4,12 +4,12 @@ const Navbar = () => {
   return (
     <header>
       <div>
-        <nav>
+        <nav className="nav">
           <a className="logo" lang="en" href="./index.html">
             <img className="logo__icon" src={logo} alt="Logo" />
             <div>
-              <span className="logo__accent">Finance </span>
-              <span className="logo__dark">Ledger</span>
+              <span className="logo__icon logo__icon--accent">Finance</span>
+              <span className=" logo__icon logo__icon--light">Ledger</span>
             </div>
           </a>
           <ul className="nav__list">
