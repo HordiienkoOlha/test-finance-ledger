@@ -1,5 +1,13 @@
 const Home = () => {
-  return <h2>Home</h2>;
+  return (
+    <section>
+      <div>
+        <h1>The Sky Is The Limit</h1>
+        <p>We provide world class financial assistance</p>
+        <button type="button">Read More</button>
+      </div>
+    </section>
+  );
 };
 
 export default Home;

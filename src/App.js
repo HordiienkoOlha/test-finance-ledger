@@ -1,14 +1,21 @@
-// import { Route, Routes } from "react-router-dom";
-import { lazy } from "react";
-
-const Header = lazy(() => import("./components/Header"));
-const Home = lazy(() => import("./components/Home"));
-
+// import { Route, Routes } from "react-router-dom";import { Navbar } from './components/Navbar';
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+// import { Cases } from "./components/Cases";
+// import { Blog } from "./components/Blog";
+// import { Contact } from "./components/Contact";
+// import { Footer } from "./components/Footer";
 function App() {
   return (
     <>
-      <Header />
+      <Navbar />
       <Home />
+      <About />
+      {/* <Cases /> */}
+      {/* <Blog /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
       {/* <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<Home />} />
