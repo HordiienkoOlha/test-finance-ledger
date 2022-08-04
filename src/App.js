@@ -2,20 +2,23 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-// import { Cases } from "./components/Cases";
-// import { Blog } from "./components/Blog";
-// import { Contact } from "./components/Contact";
-// import { Footer } from "./components/Footer";
+import Cases from "./components/Cases";
+import Blog from "./components/Blog";
+import Team from "./components/Team";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
       <Navbar />
       <Home />
       <About />
-      {/* <Cases /> */}
-      {/* <Blog /> */}
-      {/* <Contact /> */}
-      {/* <Footer /> */}
+      <Cases />
+      <Blog />
+      <Team />
+      <Contact />
+      <Footer />
       {/* <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<Home />} />

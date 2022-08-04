@@ -2,6 +2,7 @@ import people1 from "../images/home/people.webp";
 import people2 from "../images/home/people@2x.webp";
 import people3 from "../images/home/people.jpg";
 // import people4 from "../images/home/people@2x.jpg";
+import Button from "./Button";
 
 const About = () => {
   return (
@@ -44,7 +45,17 @@ const About = () => {
               alt="Group of people"
             />
           </li>
-          <li>{/* <pret */}</li>
+          <li>
+            <h3>What you are looking for</h3>
+            <h4>We provide bespoke solutions</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+          </li>
+          <Button />
         </ul>
       </div>
     </section>
