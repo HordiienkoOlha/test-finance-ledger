@@ -6,29 +6,28 @@ import linkedin from "../images/social/linkedin.svg";
 const SocialIcons = () => {
   return (
     <>
-      <ul>
-        <li>
+      <ul className="icons">
+        <li className="icons__item">
           <a lang="en" href="./index.html">
             <img src={facebook} alt="facebook" />
           </a>
         </li>
-        <li>
+        <li className="icons__item">
           <a lang="en" href="./index.html">
             <img src={twitter} alt="twitter" />
           </a>
         </li>
-        <li>
+        <li className="icons__item">
           <a lang="en" href="./index.html">
             <img src={youtube} alt="youtube" />
           </a>
         </li>
-        <li>
+        <li className="icons__item">
           <a lang="en" href="./index.html">
             <img src={linkedin} alt="linkedin" />
           </a>
         </li>
       </ul>
-      <p>Copyright © 2021 - FinanceLedger</p>
     </>
   );
 };
