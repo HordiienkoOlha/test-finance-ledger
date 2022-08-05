@@ -40,29 +40,29 @@ import cases8 from "../images/cases/cases8.jpg";
 
 const Gallery = () => {
   return (
-    <ul>
-      <li>
+    <ul className="gallery container">
+      <li className="gallery__item">
         <img src={cases1} srcSet={`${cases1} 300w`} alt="" />
       </li>
-      <li>
+      <li className="gallery__item">
         <img src={cases2} srcSet={`${cases2} 300w`} alt="" />
       </li>
-      <li>
+      <li className="gallery__item">
         <img src={cases3} srcSet={`${cases3} 300w`} alt="" />
       </li>
-      <li>
+      <li className="gallery__item">
         <img src={cases4} srcSet={`${cases4} 300w`} alt="" />
       </li>
-      <li>
+      <li className="gallery__item">
         <img src={cases5} srcSet={`${cases5} 300w`} alt="" />
       </li>
-      <li>
+      <li className="gallery__item">
         <img src={cases6} srcSet={`${cases6} 300w`} alt="" />
       </li>
-      <li>
+      <li className="gallery__item">
         <img src={cases7} srcSet={`${cases7} 300w`} alt="" />
       </li>
-      <li>
+      <li className="gallery__item">
         <img src={cases8} srcSet={`${cases8} 300w`} alt="" />
       </li>
     </ul>

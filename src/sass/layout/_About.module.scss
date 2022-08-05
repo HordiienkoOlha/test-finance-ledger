@@ -1,0 +1,42 @@
+.about {
+  background: $accent-color;
+}
+// .about__content {
+
+// }
+// .about__list{
+
+// }
+.about__item-indentation {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.about__pretitle {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.about__nexttitle {
+  margin-bottom: 24px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+
+.about__text {
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.about__button {
+  color: $primary-bg-color;
+  font-size: 16px;
+  line-height: 1.63;
+  background-color: $accent-color;
+  padding-left: 36px;
+  padding-right: 36px;
+
+  border: 1px solid #ffffff;
+}

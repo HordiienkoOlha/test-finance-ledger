@@ -1,0 +1,26 @@
+.cases {
+  background-color: $primary-bg-color;
+}
+
+.cases__content {
+  padding-left: 56px;
+  padding-right: 56px;
+  text-align: center;
+}
+
+.cases__pretitle {
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.cases__title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+
+.cases__text {
+  font-size: 16px;
+  line-height: 1.63;
+  margin-bottom: 20px;
+}

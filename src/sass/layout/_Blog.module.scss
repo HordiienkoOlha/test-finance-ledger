@@ -1,0 +1,36 @@
+.blog {
+  background-color: $accent-bg-color;
+  color: $primary-bg-color;
+}
+
+.blog__content {
+}
+
+.blog__pretitle {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.blog__title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  margin-bottom: 24px;
+}
+
+.blog__text {
+  font-size: 16px;
+  line-height: 1.63;
+  margin-bottom: 24px;
+}
+
+.blog__button {
+  background-color: $accent-bg-color;
+  color: $primary-bg-color;
+  border: 1px solid #ffffff;
+  padding-left: 41px;
+  padding-right: 31px;
+  font-size: 16px;
+  line-height: 1.63;
+}

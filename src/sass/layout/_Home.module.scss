@@ -1,0 +1,31 @@
+.hero__content {
+  padding-top: 40px;
+  padding-bottom: 96px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  color: $hero-text-color;
+}
+
+.hero__title {
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 1.27;
+}
+
+.hero__text {
+  margin-bottom: 24px;
+  font-size: 22px;
+  line-height: 1.69;
+}
+
+.hero__button {
+  padding-left: 41px;
+  padding-right: 29px;
+  line-height: 1.63;
+  border: 0px;
+  color: $primary-bg-color;
+  background-color: $accent-color;
+}

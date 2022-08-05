@@ -5,18 +5,20 @@ import blog1 from "../images/home/blog.jpg";
 
 const Blog = () => {
   return (
-    <section>
-      <div>
-        <img src={blog1} srcSet={`${blog1} 300w`} alt="" />
-        <p>April 16 2020</p>
-        <h3>Blog Post One</h3>
-        <p>
+    <section className="blog ">
+      <img src={blog1} srcSet={`${blog1} 300w`} alt="" />
+      <div className="blog__content section container">
+        <p className="blog__pretitle">April 16 2020</p>
+        <h3 className="blog__title">Blog Post One</h3>
+        <p className="blog__text">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
           ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
           illum dolore explicabo ab dolores itaque rerum temporibus doloribus
           iste maiores deleniti?
         </p>
-        <button type="button">Read Our Blog</button>
+        <button type="button" className="button blog__button">
+          Read Our Blog
+        </button>
       </div>
     </section>
   );

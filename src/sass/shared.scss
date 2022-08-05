@@ -1,15 +1,20 @@
 @import './utils/varialbles';
+@import './utils/visually-hidden';
 
 
-@import './components/Navbar.module';
-@import './components/Home.module';
-@import './components/Container.module';
-@import './components/About.module';
-@import './components/Cases.module';
-@import './components/Blog.module';
-@import './components/Gallery.module.scss';
-@import './components/Team.module.scss';
-@import './components/Contact.module';
-@import './components/Button.module';
+@import './layout/Navbar.module';
+@import './layout/Home.module';
+@import './layout/About.module';
+@import './layout/Cases.module';
+@import './layout/Blog.module';
+@import './layout/Team.module';
+@import './layout/Contact.module';
+@import './layout/Footer.module';
+
+
+@import './components/ContainerBackground.module';
 @import './components/SocialIcons.module';
-@import './components/Footer.module';
+@import './components/Gallery.module';
+@import './components/button';
+@import './components/section';
+@import './components/container';
