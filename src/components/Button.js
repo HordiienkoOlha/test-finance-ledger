@@ -1,7 +1,9 @@
 const Button = () => {
   return (
     <>
-      <button type="button">Read More</button>
+      <button className="button" type="button">
+        Read More
+      </button>
     </>
   );
 };

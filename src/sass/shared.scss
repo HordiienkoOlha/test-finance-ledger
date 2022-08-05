@@ -3,10 +3,13 @@
 
 @import './components/Navbar.module';
 @import './components/Home.module';
+@import './components/Container.module';
 @import './components/About.module';
 @import './components/Cases.module';
-@import './components//Blog.module';
+@import './components/Blog.module';
+@import './components/Gallery.module.scss';
+@import './components/Team.module.scss';
 @import './components/Contact.module';
 @import './components/Button.module';
 @import './components/SocialIcons.module';
-@import './components//Footer.module';
+@import './components/Footer.module';

@@ -16,8 +16,8 @@ import person3 from "../images/team/person3.jpg";
 const Team = () => {
   return (
     <>
-      <h2>Who we are</h2>
-      <h3>Our Professional Team</h3>
+      <p>Who we are</p>
+      <h2>Our Professional Team</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
         sapiente!

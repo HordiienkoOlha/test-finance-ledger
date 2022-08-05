@@ -46,8 +46,8 @@ const About = () => {
             />
           </li>
           <li>
-            <h3>What you are looking for</h3>
-            <h4>We provide bespoke solutions</h4>
+            <p>What you are looking for</p>
+            <h3>We provide bespoke solutions</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Voluptate, ipsum dignissimos quae laudantium asperiores nam
