@@ -15,7 +15,7 @@ import person3 from "../images/team/person3.jpg";
 
 const Team = () => {
   return (
-    <section className="team section">
+    <section className="team">
       <div className="team__content">
         <p className="team__pretitle">Who we are</p>
         <h2 className="team__title">Our Professional Team</h2>

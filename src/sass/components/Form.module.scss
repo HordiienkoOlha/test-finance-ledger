@@ -1,0 +1,38 @@
+.form {
+  font-size: 16px;
+  line-height: 1.44;
+}
+
+.form__input {
+  font-size: 16px;
+  line-height: 1.44;
+  padding: 8px;
+  background-color: $primary-bg-color;
+  border: 1px solid $secondary-bg-color;
+  border-radius: 0px;
+}
+.form__name {
+  margin-bottom: 32px;
+}
+
+.form__email {
+  margin-bottom: 40px;
+}
+.form__error {
+  color: red;
+
+  //   &::before {
+  //     display: inline;
+  //     content: "⚠ ";
+  //   }
+}
+
+.form_button {
+  color: $primary-bg-color;
+  background-color: $accent-color;
+  min-width: 280px;
+  font-size: 16px;
+  line-height: 1.38;
+  border: 0px;
+  border-radius: 5px;
+}
