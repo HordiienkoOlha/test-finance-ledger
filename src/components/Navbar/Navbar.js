@@ -1,4 +1,4 @@
-import logo from "../images/Vector.svg";
+import logo from "../../images/Vector.svg";
 
 const Navbar = () => {
   return (
@@ -13,28 +13,28 @@ const Navbar = () => {
             </div>
           </a>
           <ul className="nav__list">
-            <li>
-              <a className="nav__item" href="./index.html">
+            <li className="nav__item">
+              <a className="nav__link" href="./index.html">
                 Home
               </a>
             </li>
-            <li>
-              <a className="nav__item" href="./index.html">
+            <li className="nav__item">
+              <a className="nav__link" href="./index.html">
                 About
               </a>
             </li>
-            <li>
-              <a className="nav__item" href="./index.html">
+            <li className="nav__item">
+              <a className="nav__link" href="./index.html">
                 Cases
               </a>
             </li>
-            <li>
-              <a className="nav__item" href="./index.html">
+            <li className="nav__item">
+              <a className="nav__link" href="./index.html">
                 Blog
               </a>
             </li>
-            <li>
-              <a className="nav__item" href="./index.html">
+            <li className="nav__item">
+              <a className="nav__link" href="./index.html">
                 Contact
               </a>
             </li>

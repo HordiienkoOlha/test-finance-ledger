@@ -1,12 +1,27 @@
-// import blogWebp from "../images/home/blog.webp";
-// import blog2Webp from "../images/home/blog@2x.webp";
-import blog1 from "../images/home/blog.jpg";
-// import blog2 from "../images/home/blog@2x.jpg";
+import blogWebp from "../../images/home/blog.webp";
+import blog2Webp from "../../images/home/blog@2x.webp";
+import blog1 from "../../images/home/blog.jpg";
+import blog2 from "../../images/home/blog@2x.jpg";
 
 const Blog = () => {
   return (
     <section className="blog ">
-      <img src={blog1} srcSet={`${blog1} 300w`} alt="" />
+      <picture>
+        <source
+          media="(min-width: 1200px)"
+          srcSet={`
+                    ${blogWebp} 1x,
+                  ${blog2Webp} 2x`}
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 1200px)"
+          srcSet={`
+                    ${blog1} 1x,
+                    ${blog2} 2x`}
+        />
+        <img src={blog1} alt="Tablet, notebook and coffee" />
+      </picture>
       <div className="blog__content section container">
         <p className="blog__pretitle">April 16 2020</p>
         <h3 className="blog__title">Blog Post One</h3>

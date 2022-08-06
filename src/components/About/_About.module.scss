@@ -1,12 +1,22 @@
 .about {
   background: $accent-color;
+  color: $primary-bg-color;
 }
-// .about__content {
-
-// }
-// .about__list{
-
-// }
+.about__tumb {
+  width: 579px;
+}
+.about__image {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.about__list {
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .about__item-indentation {
   padding-left: 30px;
   padding-right: 30px;

@@ -1,0 +1,59 @@
+.hero__content {
+  padding-top: 40px;
+  padding-bottom: 96px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  color: $hero-text-color;
+  @media screen and (min-width: 767px) {
+    padding-top: 40px;
+    padding-top: 340px;
+  }
+}
+
+.hero__title {
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 1.27;
+  @media screen and (min-width: 767px) {
+    margin-bottom: 24px;
+  }
+}
+
+.hero__text {
+  margin-bottom: 24px;
+  font-size: 22px;
+  line-height: 1.69;
+  @media screen and (min-width: 767px) {
+    margin-bottom: 32px;
+  }
+}
+
+.hero__button {
+  padding-left: 29px;
+  padding-right: 29px;
+  line-height: 1.63;
+  border: 0px;
+  color: $primary-bg-color;
+  background-color: $accent-color;
+  // @media screen and (min-width: 767px) {
+  //   padding-left: 41px;
+  //   padding-right: 29px;
+  // }
+}
+.hero__content-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero__text-button {
+  margin-left: 6px;
+}
+.hero__icon {
+  fill: $accent-color;
+  @media screen and (min-width: 767px) {
+    fill: $primary-bg-color;
+  }
+}

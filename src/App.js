@@ -1,21 +1,23 @@
 // import { Route, Routes } from "react-router-dom";import { Navbar } from './components/Navbar';
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Container from "./components/ContainerBackground";
-import About from "./components/About";
-import Cases from "./components/Cases";
-import Blog from "./components/Blog";
-import Team from "./components/Team";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import ContainerBackground from "./components/ContainerBackground/ContainerBackground";
+
+import About from "./components/About/About";
+import Cases from "./components/Cases/Cases";
+import Blog from "./components/Blog/Blog";
+
+import Team from "./components/Team/Team";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Container>
+      <ContainerBackground>
         <Navbar />
         <Home />
-      </Container>
+      </ContainerBackground>
       <About />
       <Cases />
       <Blog />

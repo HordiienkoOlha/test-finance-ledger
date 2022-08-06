@@ -1,6 +1,13 @@
 .nav {
-  padding-top: 21px;
+  padding-top: 20px;
   padding-bottom: 6px;
+  @media screen and (min-width: 767px) {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .logo {
@@ -19,7 +26,11 @@
 }
 
 .logo__icon--accent {
+  margin-left: 6px;
   color: $accent-color;
+  @media screen and (min-width: 767px) {
+    margin-left: 10px;
+  }
 }
 .logo__icon--light {
   color: $primary-bg-color;
@@ -34,6 +45,14 @@
 }
 
 .nav__item {
+  @media screen and (min-width: 767px) {
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.nav__link {
   color: $primary-bg-color;
   line-height: 1.63;
 }

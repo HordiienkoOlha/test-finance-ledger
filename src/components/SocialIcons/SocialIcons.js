@@ -1,7 +1,7 @@
-import facebook from "../images/social/facebook.svg";
-import twitter from "../images/social/twitter.svg";
-import youtube from "../images/social/youtube.svg";
-import linkedin from "../images/social/linkedin.svg";
+import facebook from "../../images/social/facebook.svg";
+import twitter from "../../images/social/twitter.svg";
+import youtube from "../../images/social/youtube.svg";
+import linkedin from "../../images/social/linkedin.svg";
 
 const SocialIcons = () => {
   return (
