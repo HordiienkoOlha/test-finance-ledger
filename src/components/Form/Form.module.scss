@@ -10,6 +10,14 @@
   background-color: $primary-bg-color;
   border: 1px solid $secondary-bg-color;
   border-radius: 0px;
+  // min-width: 280px;
+  @media screen and (min-width: 768px) {
+    min-width: 324px;
+  }
+
+  @media screen and (min-width: 1360px) {
+    min-width: 620px;
+  }
 }
 .form__name {
   margin-bottom: 32px;
@@ -17,17 +25,21 @@
 
 .form__email {
   margin-bottom: 40px;
+  @media screen and (min-width: 1360px) {
+    margin-bottom: 60px;
+  }
 }
 .form__error {
   color: red;
 
-  //   &::before {
-  //     display: inline;
-  //     content: "⚠ ";
-  //   }
+  // &::before {
+  //   display: inline;
+  //   content: "⚠ ";
+  // }
 }
 
 .form_button {
+  align-items: center;
   color: $primary-bg-color;
   background-color: $accent-color;
   min-width: 280px;
@@ -35,4 +47,10 @@
   line-height: 1.38;
   border: 0px;
   border-radius: 5px;
+  @media screen and (max-width: 319px) {
+    min-width: 200px;
+  }
+  @media screen and (min-width: 1360px) {
+    min-width: 642px;
+  }
 }

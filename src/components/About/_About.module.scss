@@ -33,6 +33,10 @@
     padding-left: 32px;
     padding-right: 53px;
   }
+  @media screen and (min-width: 1360px) {
+    padding-left: 20px;
+    padding-right: 64px;
+  }
 }
 .about__pretitle {
   margin-bottom: 8px;

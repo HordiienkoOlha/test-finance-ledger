@@ -18,9 +18,10 @@ const Form = () => {
         />
         <input
           className="form__input form__email"
-          {...register("mail", { required: "This is a required field" })}
+          {...register("mail", { required: "⚠  This is a required field" })}
           placeholder="Enter email*"
         />
+
         <p className="form__error">{errors.mail?.message}</p>
         <button className="button form_button" type="submit">
           Send

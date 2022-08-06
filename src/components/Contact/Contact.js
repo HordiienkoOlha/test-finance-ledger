@@ -6,26 +6,34 @@ import Form from "../Form/Form";
 
 const Contact = () => {
   return (
-    <section className="contact">
-      <picture>
-        <source
-          media="(min-width: 1200px)"
-          srcSet={`
+    <section>
+      <div className="contact">
+        <ul className="contact__list">
+          <li className="contsct__item">
+            <picture className="contact__image">
+              <source
+                media="(min-width: 1200px)"
+                srcSet={`
                     ${contactWebp} 1x,
                   ${contact2Webp} 2x`}
-          type="image/webp"
-        />
-        <source
-          media="(min-width: 1200px)"
-          srcSet={`
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 1200px)"
+                srcSet={`
                     ${contact} 1x,
                     ${contact2} 2x`}
-        />
-        <img src={contact} alt="Worker at the work" />
-      </picture>
-      <div className="contact__content section container">
-        <h2 className="contact__title">Request Callback</h2>
-        <Form />
+              />
+              <img src={contact} alt="Worker at the work" />
+            </picture>
+          </li>
+          <li className="contsct__item">
+            <div className="contact__content section container">
+              <h2 className="contact__title">Request Callback</h2>
+              <Form />
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
   );

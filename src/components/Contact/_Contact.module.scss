@@ -1,7 +1,32 @@
 .contact {
-  background-color: $section-bg-color;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 40px;
+  }
+  @media screen and (min-width: 1360px) {
+    padding-bottom: 0;
+  }
 }
+// .contact__image {
+//   background-color: $section-bg-color;
+// }
 
+.contact__list {
+  background-color: $section-bg-color;
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+// .contsct__item{
+
+// }
+.contact .contact__content {
+  // background-color: $section-bg-color;
+  @media screen and (min-width: 1360px) {
+    padding-left: 20px;
+    padding-right: 28px;
+  }
+}
 .contact__title {
   font-weight: 300;
   font-size: 38px;

@@ -4,7 +4,22 @@
   margin-bottom: 8px;
   display: flex;
   justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 6px;
+  }
 }
 
+.icons__link {
+  @media screen and (min-width: 768px) {
+    margin-right: 25px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
 .icons__item {
+  fill: $primary-bg-color;
 }

@@ -1,30 +1,35 @@
-import facebook from "../../images/social/facebook.svg";
-import twitter from "../../images/social/twitter.svg";
-import youtube from "../../images/social/youtube.svg";
-import linkedin from "../../images/social/linkedin.svg";
+import sprite from "../../images/sprite.svg";
 
 const SocialIcons = () => {
   return (
     <>
       <ul className="icons">
-        <li className="icons__item">
+        <li className="icons__link">
           <a lang="en" href="./index.html">
-            <img src={facebook} alt="facebook" />
+            <svg className="icons__item" width="35" height="35">
+              <use href={sprite + "#icon-facebook"} />
+            </svg>
           </a>
         </li>
-        <li className="icons__item">
+        <li className="icons__link">
           <a lang="en" href="./index.html">
-            <img src={twitter} alt="twitter" />
+            <svg className="icons__item" width="35" height="35">
+              <use href={sprite + "#icon-twitter"} />
+            </svg>
           </a>
         </li>
-        <li className="icons__item">
+        <li className="icons__link">
           <a lang="en" href="./index.html">
-            <img src={youtube} alt="youtube" />
+            <svg className="icons__item" width="35" height="35">
+              <use href={sprite + "#icon-youtube"} />
+            </svg>
           </a>
         </li>
-        <li className="icons__item">
+        <li className="icons__link">
           <a lang="en" href="./index.html">
-            <img src={linkedin} alt="linkedin" />
+            <svg className="icons__item" width="35" height="35">
+              <use href={sprite + "#icon-linkedin"} />
+            </svg>
           </a>
         </li>
       </ul>

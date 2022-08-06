@@ -2,6 +2,8 @@
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: $primary-text-color;
+  @media screen and (min-width: 768px) {
+  }
 }
 
 .footer__text {
@@ -9,4 +11,9 @@
   color: $primary-bg-color;
   font-size: 16px;
   line-height: 1.63;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 1.65;
+    margin-bottom: 0;
+  }
 }
