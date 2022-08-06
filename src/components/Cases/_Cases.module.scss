@@ -11,16 +11,29 @@
 .cases__pretitle {
   font-size: 18px;
   line-height: 1.67;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.65;
+    margin-bottom: 24px;
+  }
 }
 
 .cases__title {
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 24px;
+  }
 }
 
 .cases__text {
   font-size: 16px;
   line-height: 1.63;
   margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 1.56;
+    margin-bottom: 24px;
+  }
 }

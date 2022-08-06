@@ -3,14 +3,23 @@
   color: $primary-bg-color;
 }
 .about__tumb {
-  width: 579px;
+  width: 368px;
+  height: 589px;
 }
 .about__image {
-  display: block;
+  // display: block;
+  // height: 100%;
+  // width: 100%;
+  // object-fit: cover;
+  @media screen and (min-width: 768px) {
+  }
+}
+.about__tumb img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
+
 .about__list {
   @media screen and (min-width: 768px) {
     display: grid;
@@ -20,11 +29,19 @@
 .about__item-indentation {
   padding-left: 30px;
   padding-right: 30px;
+  @media screen and (min-width: 768px) {
+    padding-left: 32px;
+    padding-right: 53px;
+  }
 }
 .about__pretitle {
   margin-bottom: 8px;
   font-size: 18px;
   line-height: 1.67;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.65;
+  }
 }
 
 .about__nexttitle {
@@ -38,6 +55,10 @@
   margin-bottom: 24px;
   font-size: 16px;
   line-height: 1.63;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 1.56;
+  }
 }
 
 .about__button {
@@ -48,5 +69,9 @@
   padding-left: 36px;
   padding-right: 36px;
 
-  border: 1px solid #ffffff;
+  border: 1px solid $primary-bg-color;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 1.56;
+  }
 }

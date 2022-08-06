@@ -9,25 +9,29 @@ const About = () => {
       <div className="about__content">
         <h2 className="about__title visually-hidden">About</h2>
         <ul className="about__list">
-          <li className="about__item">
-            <div className="about__thumb">
-              <picture className="about__image">
-                <source
-                  media="(min-width: 1200px)"
-                  srcSet={`
+          <li className="about__item about__thumb">
+            {/* <div className="about__thumb"> */}
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcSet={`
                     ${people1} 1x,
                   ${people2} 2x`}
-                  type="image/webp"
-                />
-                <source
-                  media="(min-width: 1200px)"
-                  srcSet={`
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 1200px)"
+                srcSet={`
                     ${people3} 1x,
                     ${people4} 2x`}
-                />
-                <img src={people3} alt="Group of people" />
-              </picture>
-            </div>
+              />
+              <img
+                className="about__image"
+                src={people3}
+                alt="Group of people"
+              />
+            </picture>
+            {/* </div> */}
           </li>
           <li className="about__item section about__item-indentation">
             <p className="about__pretitle">What you are looking for</p>

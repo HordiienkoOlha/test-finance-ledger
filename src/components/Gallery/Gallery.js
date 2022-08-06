@@ -28,16 +28,6 @@ import cases62Webp from "../../images/cases/cases6@2x.webp";
 import cases6 from "../../images/cases/cases6.jpg";
 import cases62 from "../../images/cases/cases6@2x.jpg";
 
-// import cases7Webp from "../../images/cases/cases7.webp";
-// import cases72Webp from "../../images/cases/cases7@2x.webp";
-// import cases7 from "../../images/cases/cases7.jpg";
-// import cases72 from "../../images/cases/cases7@2x.jpg";
-
-// import cases8Webp from "../../images/cases/cases8.webp";
-// import cases82Webp from "../../images/cases/cases8@2x.webp";
-// import cases8 from "../../images/cases/cases8.jpg";
-// import cases82 from "../../images/cases/cases8@2x.jpg";
-
 const Gallery = () => {
   return (
     <ul className="gallery container ">
