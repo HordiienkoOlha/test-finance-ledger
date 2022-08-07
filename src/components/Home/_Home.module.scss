@@ -42,7 +42,7 @@
 .hero__button {
   padding-left: 29px;
   padding-right: 29px;
-  line-height: 1.63;
+
   border: 0px;
   color: $primary-bg-color;
   background-color: $accent-color;
@@ -57,6 +57,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  &:focus,
+  &:hover {
+    opacity: 0.75;
+  }
 }
 .hero__text-button {
   margin-left: 6px;

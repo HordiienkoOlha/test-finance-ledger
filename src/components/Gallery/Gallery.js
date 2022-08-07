@@ -30,7 +30,7 @@ import cases62 from "../../images/cases/cases6@2x.jpg";
 
 const Gallery = () => {
   return (
-    <ul className="gallery container ">
+    <ul className="gallery">
       <li className="gallery__item">
         <picture>
           <source

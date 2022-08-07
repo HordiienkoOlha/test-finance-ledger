@@ -5,11 +5,11 @@ import people4 from "../../images/home/people@2x.jpg";
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about__content">
         <h2 className="about__title visually-hidden">About</h2>
         <ul className="about__list">
-          <li className="about__item about__thumb">
+          <li className="about__item about__photo">
             {/* <div className="about__thumb"> */}
             <picture>
               <source

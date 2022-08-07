@@ -5,8 +5,9 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: $primary-bg-color;
   color: $primary-text-color;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  @media screen and (min-width: 320px) {
+    overflow-x: hidden;
+  }
 }
 
 code {

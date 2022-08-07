@@ -5,9 +5,9 @@ import blog2 from "../../images/home/blog@2x.jpg";
 
 const Blog = () => {
   return (
-    <section className="blog ">
+    <section className="blog" id="blog">
       <ul className="blog__list">
-        <li className="blog__item blog__item--image">
+        <li className="blog__item blog__item--photo">
           <picture>
             <source
               media="(min-width: 1200px)"
@@ -22,7 +22,11 @@ const Blog = () => {
                     ${blog1} 1x,
                     ${blog2} 2x`}
             />
-            <img src={blog1} alt="Tablet, notebook and coffee" />
+            <img
+              className="blog__item--image"
+              src={blog1}
+              alt="Tablet, notebook and coffee"
+            />
           </picture>
         </li>
         <li className="blog__item blog__item--text">

@@ -7,10 +7,10 @@ import Form from "../Form/Form";
 const Contact = () => {
   return (
     <section>
-      <div className="contact">
+      <div className="contact" id="contact">
         <ul className="contact__list">
-          <li className="contsct__item">
-            <picture className="contact__image">
+          <li className="contact__item contact__photo">
+            <picture>
               <source
                 media="(min-width: 1200px)"
                 srcSet={`
@@ -24,11 +24,15 @@ const Contact = () => {
                     ${contact} 1x,
                     ${contact2} 2x`}
               />
-              <img src={contact} alt="Worker at the work" />
+              <img
+                className="contact__image"
+                src={contact}
+                alt="Worker at the work"
+              />
             </picture>
           </li>
-          <li className="contsct__item">
-            <div className="contact__content section container">
+          <li className="contact__item">
+            <div className="contact__content section">
               <h2 className="contact__title">Request Callback</h2>
               <Form />
             </div>

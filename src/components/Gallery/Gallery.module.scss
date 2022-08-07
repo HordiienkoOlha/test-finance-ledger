@@ -1,8 +1,15 @@
 .gallery {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
   @media screen and (min-width: 768px) {
+    padding-left: 32px;
+    padding-right: 32px;
+
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     grid-column-gap: 18px;
     grid-row-gap: 18px;
   }
@@ -19,5 +26,9 @@
   }
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
+  }
+  &:focus,
+  &:hover {
+    opacity: 0.8;
   }
 }

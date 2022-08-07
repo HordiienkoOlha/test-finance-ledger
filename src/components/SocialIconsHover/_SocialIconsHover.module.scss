@@ -1,4 +1,4 @@
-.icons {
+.iconsHover {
   padding-left: 52px;
   padding-right: 52px;
   margin-bottom: 8px;
@@ -12,7 +12,8 @@
   }
 }
 
-.icons__link {
+.iconsHover__link {
+  margin-right: 10px;
   @media screen and (min-width: 768px) {
     margin-right: 25px;
     &:last-child {
@@ -20,10 +21,10 @@
     }
   }
 }
-.icons__item {
+.iconsHover__item {
   fill: $primary-bg-color;
   &:focus,
   &:hover {
-    fill: $accent-color;
+    opacity: 0.8;
   }
 }

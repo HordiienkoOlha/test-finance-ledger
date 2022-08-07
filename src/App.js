@@ -2,6 +2,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import ContainerBackground from "./components/ContainerBackground/ContainerBackground";
+import Main from "./components/Main";
 
 import About from "./components/About/About";
 import Cases from "./components/Cases/Cases";
@@ -18,11 +19,13 @@ function App() {
         <Navbar />
         <Home />
       </ContainerBackground>
-      <About />
-      <Cases />
-      <Blog />
-      <Team />
-      <Contact />
+      <Main>
+        <About />
+        <Cases />
+        <Blog />
+        <Team />
+        <Contact />
+      </Main>
       <Footer />
       {/* <Routes>
         <Route path="/" element={<Header />}>

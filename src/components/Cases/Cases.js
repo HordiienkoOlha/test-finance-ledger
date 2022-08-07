@@ -2,7 +2,7 @@ import Gallery from "../Gallery";
 
 const Cases = () => {
   return (
-    <section className="cases section">
+    <section className="cases section" id="cases">
       <div className="cases__content ">
         <p className="cases__pretitle">This is what we do</p>
         <h3 className="cases__title">Business Cases</h3>
