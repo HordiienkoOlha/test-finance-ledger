@@ -1,7 +1,6 @@
 // import { Route, Routes } from "react-router-dom";import { Navbar } from './components/Navbar';
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
-import ContainerBackground from "./components/ContainerBackground/ContainerBackground";
 import Main from "./components/Main";
 
 import About from "./components/About/About";
@@ -15,10 +14,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <ContainerBackground>
         <Navbar />
         <Home />
-      </ContainerBackground>
       <Main>
         <About />
         <Cases />

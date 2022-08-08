@@ -9,31 +9,38 @@ const Form = () => {
 
   const onSubmit = (data) => console.log(data);
 
-  const notification = ` This is a required field`;
-  console.log(String(notification));
+  // const notification = ` This is a required field`;
+  // console.log(String(notification));
   return (
     <>
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <div className="form__wrapper">
           <div className="form__field">
-            <label>
+            <div className="form__part">
               <input
+                type="text"
                 className="form__input form__name"
+                id="formName"
+                name="formName"
                 {...register("name", { required: true })}
-                placeholder="Enter your name"
+                placeholder=" "
               />
-            </label>
-            <label>
+              <label htmlFor="formName">Enter your name</label>
+            </div>
+
+            <div className="form__part">
               <input
+                type="email"
                 className="form__input form__email"
+                id="formEmail"
+                name="formEmail"
                 {...register("mail", {
                   required: "⚠  This is a required field",
-                  // required: { notification },
-                  // required: { warning },
                 })}
-                placeholder="Enter email*"
+                placeholder=" "
               />
-            </label>
+              <label htmlFor="formEmail">Enter email*</label>
+            </div>
             <p className="form__error">{errors.mail?.message}</p>
           </div>
 

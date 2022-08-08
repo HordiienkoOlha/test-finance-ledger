@@ -1,15 +1,14 @@
-.about {
+.about__content {
   background: $accent-color;
   color: $primary-bg-color;
-}
-.about__tumb {
-  // width: 368px;
-  // height: 589px;
 }
 .about__image {
   @media screen and (min-width: 768px) {
     object-fit: cover;
     min-height: 589px;
+  }
+  @media screen and (min-width: 1360px) {
+    min-height: 460px;
   }
 }
 
@@ -25,10 +24,13 @@
   @media screen and (min-width: 768px) {
     padding-left: 32px;
     padding-right: 53px;
+    min-width: 400px;
   }
   @media screen and (min-width: 1360px) {
     padding-left: 20px;
     padding-right: 64px;
+    min-width: 690px;
+    min-height: 460px;
   }
 }
 .about__pretitle {
