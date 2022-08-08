@@ -1,4 +1,3 @@
-// import { Route, Routes } from "react-router-dom";import { Navbar } from './components/Navbar';
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Main from "./components/Main";
@@ -14,8 +13,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-        <Navbar />
-        <Home />
+      <Navbar />
+      <Home />
       <Main>
         <About />
         <Cases />
@@ -24,15 +23,6 @@ function App() {
         <Contact />
       </Main>
       <Footer />
-      {/* <Routes>
-        <Route path="/" element={<Header />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="cases" element={<Cases />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="contact" element={<Contact />} />
-        </Route>
-      </Routes> */}
     </>
   );
 }
