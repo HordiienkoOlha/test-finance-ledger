@@ -28,7 +28,7 @@ const Team = () => {
       <ul className="team__list">
         <li className="team__item">
           <div className="team__frame">
-            <picture>
+            <picture className="team__photo">
               <source
                 media="(min-width: 1200px)"
                 srcSet={`
@@ -56,7 +56,7 @@ const Team = () => {
 
         <li className="team__item">
           <div className="team__frame">
-            <picture>
+            <picture className="team__photo">
               <source
                 media="(min-width: 1200px)"
                 srcSet={`
@@ -84,7 +84,7 @@ const Team = () => {
 
         <li className="team__item">
           <div className="team__frame">
-            <picture>
+            <picture className="team__photo">
               <source
                 media="(min-width: 1200px)"
                 srcSet={`

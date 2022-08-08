@@ -18,7 +18,6 @@ const customStyles = {
 Modal.setAppElement("#root");
 
 const Form = () => {
-  //  let subtitle;
   const [modalIsOpen, setIsOpen] = useState(false);
 
   const {
@@ -34,7 +33,10 @@ const Form = () => {
     setIsOpen(false);
   }
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+    console.log(data);
+    openModal();
+  };
   return (
     <>
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
@@ -58,6 +60,7 @@ const Form = () => {
                 className="form__input form__email"
                 id="formEmail"
                 name="formEmail"
+                min="3"
                 {...register("mail", {
                   required: "⚠  This is a required field",
                 })}
@@ -71,21 +74,13 @@ const Form = () => {
           <button
             className="button form_button"
             type="submit"
-            onClick={openModal}
+            // onClick={openModal}
           >
             Send
           </button>
           <Modal
-            // isOpen={modalIsOpen}
-            // // ariaHideApp={false}
-            // // appElement={document.getElementById("root")}
-            // className="form__modal"
-            // onRequestClose={closeModal}
-            // style={customStyles}
-            // contentLabel="Example Modal"
             ariaHideApp={false}
             isOpen={modalIsOpen}
-            // onAfterOpen={this.afterOpenModal}
             onRequestClose={closeModal}
             style={customStyles}
           >

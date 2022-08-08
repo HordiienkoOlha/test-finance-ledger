@@ -1,6 +1,4 @@
 .team {
-  position: relative;
-  overflow: hidden;
   text-align: center;
   padding-top: 40px;
 
@@ -98,16 +96,23 @@
 }
 
 .team__frame {
+  position: relative;
   &:focus,
   &:hover {
     transition: 250ms;
     text-align: center;
-
     transform: scale(1.05);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.4);
     z-index: 11;
   }
+}
+.team__photo {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 1;
 }
 .team__overlay {
   position: absolute;
