@@ -1,5 +1,4 @@
 import { useForm } from "react-hook-form";
-import warning from "../../images/form/warning.svg";
 
 const Form = () => {
   const {

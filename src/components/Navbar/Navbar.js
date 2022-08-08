@@ -1,8 +1,37 @@
+import { useEffect, useState } from "react";
 import logo from "../../images/Vector.svg";
 
 const Navbar = () => {
+  const [scrollDown, setScrollDown] = useState(false);
+
+  console.log(window.scrollY);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 70) {
+        setScrollDown(true);
+      }
+      // if (window.scrollY === 120) {
+      //   setScrollDown(false);
+      // }
+      console.log("Scrolling...");
+    };
+
+    window.addEventListener("scroll", handleScroll, true);
+
+    console.log(window.scrollY > 120);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll, true);
+    };
+  }, [scrollDown]);
   return (
-    <header id="home">
+    <header
+      className={
+        scrollDown ? ["section__header--transparent"] : ["section__header"]
+      }
+      id="home"
+    >
       <div>
         <nav className="nav">
           <a className="logo" lang="en" href="#home">

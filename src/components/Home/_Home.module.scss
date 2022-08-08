@@ -1,17 +1,34 @@
 .hero__content {
-  padding-top: 30px;
+  padding-top: 142px;
   padding-bottom: 96px;
   margin-left: auto;
   margin-right: auto;
 
   text-align: center;
   color: $hero-text-color;
-  @media screen and (min-width: 767px) {
-    padding-top: 334px;
+  background-color: $section-bg-color;
+  flex-grow: 1;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../images/home/showcase.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media screen and (min-width: 768px) {
+    padding-top: 407px;
     padding-bottom: 410px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../images/home/showcase.jpg");
+
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../../images/home/showcase@2x.jpg");
+    }
   }
   @media screen and (min-width: 1360px) {
-    padding-top: 224px;
+    padding-top: 279px;
     padding-bottom: 282px;
   }
 }
@@ -21,7 +38,7 @@
   font-weight: 300;
   font-size: 52px;
   line-height: 1.27;
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 24px;
     font-size: 55px;
     line-height: 1.2;
@@ -32,7 +49,7 @@
   margin-bottom: 24px;
   font-size: 22px;
   line-height: 1.69;
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 32px;
     font-size: 22px;
     line-height: 1.68;
@@ -48,7 +65,7 @@
   background-color: $accent-color;
   font-size: 16px;
   line-height: 1.63;
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     font-size: 18px;
     line-height: 1.56;
   }
@@ -67,7 +84,7 @@
 }
 .hero__icon {
   fill: $accent-color;
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     fill: $primary-bg-color;
   }
 }
