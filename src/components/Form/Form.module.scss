@@ -2,7 +2,14 @@
   font-size: 16px;
   line-height: 1.44;
 }
-.form__label {
+
+.form__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 194px;
+}
+.form__field {
   display: flex;
   flex-direction: column;
 }
@@ -27,15 +34,16 @@
   margin-bottom: 32px;
 }
 
-.form__email {
-  margin-bottom: 40px;
-  @media screen and (min-width: 1360px) {
-    margin-bottom: 60px;
-  }
-}
+// .form__email {
+//   margin-bottom: 40px;
+//   @media screen and (min-width: 1360px) {
+//     margin-bottom: 60px;
+//   }
+// }
 .form__error {
   color: red;
   margin: 0;
+  padding-top: 4px;
 
   // &::before {
   //   display: inline;
