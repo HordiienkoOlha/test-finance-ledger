@@ -10,7 +10,6 @@ const About = () => {
         <h2 className="about__title visually-hidden">About</h2>
         <ul className="about__list">
           <li className="about__item about__photo">
-            {/* <div className="about__thumb"> */}
             <picture>
               <source
                 media="(min-width: 1200px)"
@@ -31,7 +30,6 @@ const About = () => {
                 alt="Group of people"
               />
             </picture>
-            {/* </div> */}
           </li>
           <li className="about__item section about__item-indentation">
             <p className="about__pretitle">What you are looking for</p>

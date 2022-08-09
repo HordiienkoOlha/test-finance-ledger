@@ -190,42 +190,6 @@ const Gallery = () => {
           </picture>
         </a>
       </li>
-      {/* <li className="gallery__item">
-        <picture>
-          <source
-            media="(min-width: 1200px)"
-            srcSet={`
-                    ${cases7Webp} 1x,
-                  ${cases72Webp} 2x`}
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 1200px)"
-            srcSet={`
-                    ${cases7} 1x,
-                    ${cases72} 2x`}
-          />
-          <img src={cases7} alt="We are team" />
-        </picture>
-      </li>
-      <li className="gallery__item">
-        <picture>
-          <source
-            media="(min-width: 1200px)"
-            srcSet={`
-                    ${cases8Webp} 1x,
-                  ${cases82Webp} 2x`}
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 1200px)"
-            srcSet={`
-                    ${cases8} 1x,
-                    ${cases82} 2x`}
-          />
-          <img src={cases8} alt="Happy employees" />
-        </picture>
-      </li> */}
     </ul>
   );
 };

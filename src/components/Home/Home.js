@@ -1,4 +1,3 @@
-// import arrow from "../../images/home/angle-right.svg";
 import sprite from "../../images/sprite.svg";
 
 const Home = () => {
@@ -14,7 +13,6 @@ const Home = () => {
             <svg className="hero__icon" width="9" height="18">
               <use href={sprite + "#icon-angle-right"} />
             </svg>
-            {/* <img className="hero__icon" src={arrow} alt="arrow" /> */}
             <div className="hero__text-button">Read More</div>
           </div>
         </button>

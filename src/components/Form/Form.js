@@ -71,11 +71,7 @@ const Form = () => {
             <p className="form__error">{errors.mail?.message}</p>
           </div>
 
-          <button
-            className="button form_button"
-            type="submit"
-            // onClick={openModal}
-          >
+          <button className="button form_button" type="submit">
             Send
           </button>
           <Modal
