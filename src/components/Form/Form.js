@@ -44,6 +44,11 @@ const Form = () => {
           <div className="form__field">
             <div className="form__part">
               <input
+                type="hidden"
+                name="form-name"
+                value="the-name-of-the-html-form"
+              />
+              <input
                 type="text"
                 className="form__input form__name"
                 id="formName"
