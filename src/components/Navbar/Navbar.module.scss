@@ -42,6 +42,7 @@
   }
   &:hover,
   &:focus {
+    // cursor: pointer;
     transition: 1s;
     text-align: center;
 
@@ -100,6 +101,7 @@
   position: relative;
   &:hover,
   &:focus {
+    cursor: pointer;
     &::after {
       content: "";
       position: absolute;
